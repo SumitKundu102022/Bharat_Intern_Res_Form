@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- ===== FontAwesome ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Registration</title>
+  </head>
+
+  <body>
+    <div class="container1">
+      <div class="forms">
+        <!-- Registration Form -->
+        <div class="form signup">
+          <span class="title">Registration</span>
+          <form
+            action="/signup"
+            name="signupForm"
+            method="post"
+            onsubmit="return logSubmit()"
+            id="signupForm"
+          >
+            <div class="input-field">
+              <input type="text" name="name" placeholder="Enter your name" id="name" autocomplete="off"/>
+              <i class="fa-solid fa-user"></i>
+              <small></small>
+            </div>
+
+            <div class="input-field">
+              <input type="email" name="email" placeholder="Enter your email"  id="email" autocomplete="off" required/>
+              <i class="fa-solid fa-envelope icon"></i>
+              <small></small>
+            </div>
+
+            <div class="input-field">
+              <input
+                type="password"
+                name="password"
+                class="password"
+                placeholder="Enter your password"
+                autocomplete="off"
+                required=""
+                id="id_password"
+                onkeyup="check()"
+                
+              />
+              <i class="fa-solid fa-lock icon"></i>
+              <i class="bi bi-eye-slash-fill showhidepw" id="togglePassword"></i>
+              <small></small>
+            </div>
+
+            <div class="input-field">
+              <input
+                type="password"
+                name="confirmPass"
+                class="password"
+                placeholder="Confirm your password"
+                autocomplete="off"
+                required=""
+                id="confirmPass"
+                onkeyup="check()"
+                
+              />
+              <i class="fa-solid fa-lock icon"></i>
+              <i
+                class="bi bi-eye-slash-fill showhidepw pass"
+                id="togglePassword1"
+              ></i>
+              <small></small>
+            </div>
+            <span id="message"></span>
+
+            <div class="checkbox-text">
+              <div class="checkbox-content">
+                <input type="checkbox" name="" id="termcon" required />
+                <label for="termcon" class="text"
+                  >I accept all terms and conditions</label
+                >
+              </div>
+            </div>
+
+            <div class="input-field button">
+              <input type="submit" value="Sign up" id="submit" onclick="" />
+            </div>
+          </form>
+
+          <div class="login-signup">
+            <span class="text">Already a member?</span>
+            <a href="/login.html" class="text login-link">Login now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== javscript ===== -->
+    <!-- <script src="/script.js"></script> -->
+     <script src="/js/script.js"></script>
+  </body>
+</html>
