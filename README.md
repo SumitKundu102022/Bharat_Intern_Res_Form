@@ -34,10 +34,10 @@
 
 
 
-<li>Configure MongoDB connection settings in config.js file: Replace Copy code in .env file<li>
+<li>Configure MongoDB connection settings in config.js file: Replace Copy code in .env file</li>
 <p>Replace 'mongodb://127.0.0.1:27017/registration-form' with your MongoDB connection URI.</p>
 
-<li>Start the server: Copy the bash code<li>
+<li>Start the server: Copy the bash code</li>
 <code>npm start</code>
 
 
