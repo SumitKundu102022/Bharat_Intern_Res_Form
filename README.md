@@ -26,7 +26,7 @@
 <code>git clone "git_Repo_URL"</code>
 
 
-<li>Navigate to the project directory: copy the bash code<li>
+<li>Navigate to the project directory: copy the bash code</li>
 <code>cd registration-form</code>
 
 <li>Install dependencies: Copy the bash code</li>
@@ -41,7 +41,7 @@
 <code>npm start</code>
 
 
-<li>Access the application in your web browser at http://localhost:8000.<li>
+<li>Access the application in your web browser at http://localhost:8000.</li>
 </ol>
 
 <h2>Usage</h2>
