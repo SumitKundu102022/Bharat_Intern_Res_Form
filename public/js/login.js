@@ -109,11 +109,12 @@ function loginForm(e, user) {
   if (!isFormValid) {
     e.preventDefault();
     alert("Some thing went wrong,try again!");
-  } else if (isFormValid && user) {
-    alert("Login successful!");
-  } else {
-    alert("Credential invalid!");
   }
+  // else if (isFormValid && user) {
+  //   alert("Login successful!");
+  // } else {
+  //   alert("Credential invalid!");
+  // }
 }
 
 const debounce = (fn, delay = 500) => {
