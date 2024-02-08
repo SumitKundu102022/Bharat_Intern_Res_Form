@@ -3,7 +3,7 @@
 
 # Registration Form with MongoDB
 
-<p>This project is a registration form application built using HTML, CSS, Node.js, and MongoDB. It allows users to sign up and store their information in a MongoDB database.</p>
+<p>This project is a registration form application built using HTML, CSS, Node.js, and MongoDB. It allows users to sign up and store their information in a MongoDB database.Then user can login with credentials and if user exits in the database ,then only user can login else throw error!</p>
 
 <h2>Features</h2>
 <ul>
@@ -29,7 +29,7 @@
 <li>Navigate to the project directory: copy the bash code</li>
 <code>cd registration-form</code>
 
-<li>Install dependencies: Copy the bash code</li>
+<li>Install dependencies: Check the dependencies in package.json file</li>
 <code>npm install</code>
 
 
@@ -48,8 +48,13 @@
 <ol>
 <li>Open the registration form in your web browser.</li>
 <li>Fill in the required information.</li>
-<li>Click the "Submit" button to register.</li>
+<li>Click the "Sign up" button to register.</li>
 <li>Upon successful registration, the user information will be stored in the MongoDB database.</li>
+<li>Now user is redirect to login page </li>
+<li>Fill the correct details such email and password which you created at the time of Registration</li>
+<li>Click the "Login" button to Login.</li>
+<li>Upon successful Login, user is redirect to Home page</li>
+<li>If user not exit in MongoDB database or any wrong input then login Unsuccessful and throw error</li>
 </ol>
 
 <h2>Contributing</h2>
