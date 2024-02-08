@@ -38,7 +38,7 @@
 <p>Replace 'mongodb://127.0.0.1:27017/registration-form' with your MongoDB connection URI.</p>
 
 <li>Start the server: Copy the bash code</li>
-<code>npm start</code>
+<code>node index.js</code>
 
 
 <li>Access the application in your web browser at http://localhost:8000.</li>
